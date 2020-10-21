@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Cavicchioli treno</title>
+  </head>
+  <body>
+
+    <div class="pagina flex column center">
+
+      <div id="raccoltaInfo">
+        <div class="white">
+          CALCOLA IL PREZZO DEL TUO BIGLIETTO
+        </div>
+        <div class="sfondoinfo">
+
+          <form id="info" class="flex center" action="index.html" method="post">
+            <div class="">
+              <label class="pinktext" for="infoName">Nome Cognome</label><br>
+              <input id="infoName" class="input" type="text" placeholder="Inserisci il tuo nome">
+
+            </div>
+
+            <div class="">
+              <label class="pinktext" for="infoKm">Km da percorrere</label><br>
+              <input id="infoKm" class="input" type="number"placeholder="Inserisci i km">
+
+            </div>
+
+            <div class="">
+              <label class="pinktext" for="infoEta">Fascia d'et&agrave;</label><br>
+              <select id="infoEta" class="input">
+                <option value="" disabled selected>Seleziona fascia d'et&agrave;</option>
+                <option value="u18">Minorenne</option>
+                <option value="maggiorenne">Maggiorenne</option>
+                <option value="o65">Over 65</option>
+              </select>
+
+            </div>
+
+          </form>
+
+          <div class="bottoni">
+            <button id="genera" type="button" name="button">Genera</button>
+            <button id="annulla" type="button" name="annulla">Annulla</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="biglietto">
+
+        <div class="white">
+          IL TUO BIGLIETTO
+        </div>
+
+        <div class="sfondobiglietto">
+          <div class="dettaglio">
+            DETTAGLIO DEI PASSEGGERI
+          </div>
+
+          <div class="riquadrobiglietto">
+
+            <div class="grigio">
+
+              <div class="nomepasseggero">
+                NOME PASSEGGERO
+              </div>
+              <div class="">
+                <span id="nomebiglietto"></span>
+              </div>
+
+            </div>
+
+            <div class="bordo">
+
+              <div class="col">
+                <div class="littletitle">
+                  Offerta
+                </div>
+                <div class="">
+                  <span id="offerta"></span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="littletitle">
+                  Carrozza
+                </div>
+                <div class="">
+                  <span id="carrozza"></span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="littletitle">
+                  Codice CP
+                </div>
+                <div class="">
+                  <span id="codicecp"></span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="littletitle">
+                  Costo biglietto
+                </div>
+                <div class="">
+                  <span id="prezzobiglietto"></span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </body>
+</html>

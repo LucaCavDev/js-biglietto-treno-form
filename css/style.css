@@ -1,0 +1,121 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pagina {
+  font-family: 'Roboto', sans-serif;
+  background-color: #C62750;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.pinktext {
+  color: #C62750;
+}
+
+button {
+  color: #C62750;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #C62750;
+  background-color: silver;
+}
+
+.input {
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+#info {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#raccoltaInfo {
+  width: 80%;
+  margin-top: 5%;
+}
+
+.white {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.sfondoinfo {
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.bottoni {
+  margin-top: 2%;
+}
+
+.sfondobiglietto {
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  min-height: 150px;
+
+}
+
+#biglietto {
+  display: none;
+  width: 80%;
+  margin-top: 5%;
+}
+
+.riquadrobiglietto {
+  display: flex;
+  width: 100%;
+  height: 150px;
+}
+
+.dettaglio {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.nomepasseggero {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.littletitle {
+  font-weight: bold;
+}
+
+.grigio {
+  background-color: grey;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bordo {
+  border: 1px solid grey;
+  display: flex;
+  width: 80%;
+}
+
+.col {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
