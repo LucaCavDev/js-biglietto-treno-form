@@ -32,7 +32,11 @@ button {
 .input {
   border-radius: 5px;
   padding: 5px;
+  border: 1px solid #C62750;
+}
 
+.input:focus {
+  background-color: #C62750;
 }
 
 #info {
